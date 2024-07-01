@@ -1,0 +1,67 @@
+.App{
+}
+ul{
+  margin: auto;
+  border-left: 1px solid;
+  margin-right: 3px;
+  margin-left: 3px;
+  border-color: rgba(50,100,45,0.77);
+
+}
+.header{
+  border-bottom: 2px solid;
+  text-align: center;
+  border-color: #33942e;
+}
+
+.container {
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+  margin-left: 5px;
+  font-size: 15px;
+  flex-grow: 1;
+  color: #33942e;
+  background-color: white;
+  border : 1px solid;
+  cursor: pointer;
+
+}
+.btn:hover {
+  background-color: #90ff73;
+}
+.btn:disabled{
+  background-color: rgba(0,0,0,0.13);
+  pointer-events: none
+}
+.buttons{
+  padding: 5px;
+  border-top: 2px solid;
+  border-color: #33942e;
+  display: flex;
+
+}
+.tree{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid;
+  color: #33942e;
+  border-color: #33942e;
+}
+.Label {
+  pointer-events: auto
+}
+
+.Label.selected {
+  background-color: #90ff73;
+
+}
+
